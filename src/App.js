@@ -1,10 +1,21 @@
 import React from 'react';
 
+import { Blog, Footer, Features, Header, Translations, Whatwedo} from './containers';
+import { Article, CTA, Feature, Navbar } from './components';
+
 
 const App = () => {
   return (
-    <div>
-        <h1>Robotic and Kevin Cross</h1>
+    <div className="App">
+        <div className="gradient__bg">
+          <Navbar />
+          <Header />
+        </div>
+        <About Us />
+        <What We Do />
+        <Features />
+        <Translations />
+
     </div>
   )
 }
