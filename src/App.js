@@ -2,6 +2,7 @@ import React from 'react';
 
 import { Blog, Footer, Features, Header, Translations, Whatwedo} from './containers';
 import { Aboutus, CTA, Navbar } from './components';
+import './App.css';
 
 
 const App = () => {
